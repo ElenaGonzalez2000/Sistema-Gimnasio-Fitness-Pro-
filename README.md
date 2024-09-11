@@ -8,7 +8,7 @@
 
 ## Descripción del sistema:
 
-La aplicaión en desarrollo trata sobre la creacion desde cero del sistema para el gimasio Fitness Pro, tiene el objetivo de agilizar multiples problemas que el sistema presenta actualmente.
+La aplicaión en desarrollo trata sobre la creacion de cero del sistema para el gimasio Fitness Pro, tiene el objetivo de agilizar multiples problemas que el gimnasio presenta actualmente.
 
 
 ## Diagramas y diseños:
