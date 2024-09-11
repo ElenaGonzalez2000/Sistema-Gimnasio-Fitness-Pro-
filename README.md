@@ -8,8 +8,7 @@
 
 ## Descripción del sistema:
 
-La aplicaión en desarrollo trata sobre la creacion de cero del sistema para el gimasio Fitness Pro, tiene el objetivo de agilizar multiples problemas que el gimnasio presenta actualmente.
-
+La aplicación en desarrollo para el gimnasio Fitness Pro tiene como objetivo crear un sistema que optimice la gestión de socios, el control de acceso, la reserva de clases y el mantenimiento de equipos.
 
 ## Diagramas y diseños:
 
