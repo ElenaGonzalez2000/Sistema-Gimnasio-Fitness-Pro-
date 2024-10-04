@@ -18,3 +18,4 @@ La aplicación en desarrollo para el gimnasio Fitness Pro tiene como objetivo cr
 - [Diseño de Clases](https://drive.google.com/file/d/17kyrXs3DrSKaESOKjlQkZ9qv7180DXvl/view?usp=sharing)
 
 [Aplicacion de principios SOLID](https://docs.google.com/document/d/1zeelIHfmskIxSxsT9_QFaSmKfmaeu9FX/edit?usp=sharing&ouid=109807518589464437920&rtpof=true&sd=true)
+[Primer trabajo obligatorio](https://drive.google.com/file/d/1XdlgTmx5QFOxldYm9Sg7p-zLv9vgjH1o/view?usp=sharing)
