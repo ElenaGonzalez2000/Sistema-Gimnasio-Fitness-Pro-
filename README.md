@@ -12,9 +12,9 @@ La aplicación en desarrollo para el gimnasio Fitness Pro tiene como objetivo cr
 
 ## Diagramas y diseños:
 
-- [Tarjetas CRC]([https://drive.google.com/file/d/1snr-SohKM-iDTFfHGlDgawj6YJAQyO9z/view?usp=sharing](https://docs.google.com/spreadsheets/d/1OomoVSrbuwHEM-y7k6WIobWao9Bu1xt6/edit?usp=sharing&ouid=109807518589464437920&rtpof=true&sd=true))
+- [Tarjetas CRC](https://docs.google.com/spreadsheets/d/1OomoVSrbuwHEM-y7k6WIobWao9Bu1xt6/edit?usp=drive_link&ouid=109807518589464437920&rtpof=true&sd=true)
 - [Diagramas de casos de uso](https://drive.google.com/file/d/1gsiWeWVw1RftMDHGxbdF4AxD5CnbAGgc/view?usp=sharing)
 - [Escenarios de casos de uso]([https://drive.google.com/file/d/1Gc8jFcqErb1fY5fDkZV-IBTh5U9wfWAZ/view?usp=sharing](https://docs.google.com/spreadsheets/d/1vtRRywF8TDF7hpB_KhUTUw7R6Vvpzd8S/edit?usp=sharing&ouid=109807518589464437920&rtpof=true&sd=true))
 - [Diseño de Clases](https://drive.google.com/file/d/17kyrXs3DrSKaESOKjlQkZ9qv7180DXvl/view?usp=sharing)
-- 
+
 [Aplicacion de principios SOLID](https://docs.google.com/document/d/1zeelIHfmskIxSxsT9_QFaSmKfmaeu9FX/edit?usp=sharing&ouid=109807518589464437920&rtpof=true&sd=true)
