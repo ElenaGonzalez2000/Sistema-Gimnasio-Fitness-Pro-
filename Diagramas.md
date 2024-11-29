@@ -6,4 +6,4 @@
 
 - [Diagrama de Actividades](https://drive.google.com/file/d/1_SSZuohfV4h5cixcCQ3Vy5nMV0HfhM-a/view?usp=sharing)
 
-- [Diagrama de Secuencia](DiagramasSecuencia.md)
+- [Diagrama de Secuencia](https://drive.google.com/file/d/16_z2LsAPQYo0kC6RxhIbJcyJYhqYxdgs/view?usp=sharing)
