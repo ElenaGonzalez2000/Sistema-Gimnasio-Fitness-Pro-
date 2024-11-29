@@ -6,7 +6,7 @@
 #### Profesor: Matias Velasquez
 #### Año: 2024
 
-## Descripción del sistema:
+## Introducción:
 
 La aplicación en desarrollo para el gimnasio Fitness Pro tiene como objetivo crear un sistema que optimice la gestión de socios, el control de acceso, la reserva de clases y el mantenimiento de equipos.
 
