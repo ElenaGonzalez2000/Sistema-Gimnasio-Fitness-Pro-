@@ -10,4 +10,4 @@ Cada estado tiene un comportamiento asociado y el patrón Stateayuda a organizar
 No se requiere mayores cambios ni nuevas clases para implementar este cambio, se utiliza la clase ya existente "ReservaClase" y se agrega la porpiedad de estado para representar el estado de la reserva. Y se agregar los metodos de confirmarReserva() y cancelarReserva() para que den valor a la propiedad "estado"
 
 #### Ejemplo de Código
-- [Ejemplo de Código](./img/Captura%20de%20pantalla%202024-11-29%20222952.png)
+- [Ejemplo de Código](./img/Captura%20de%20pantalla%202024-11-29%20230502.png)
