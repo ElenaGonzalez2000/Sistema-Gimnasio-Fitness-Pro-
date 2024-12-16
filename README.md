@@ -12,8 +12,8 @@ La aplicación en desarrollo para el gimnasio Fitness Pro tiene como objetivo cr
 
 ## Diagramas y Diseños
 
-- [Diagramas UML](DiagramasUML.md)
+- [Diagramas UML](./Diagramas%20UML/DiagramasUML.md)
 
-- [Herramientas Agile](HerramientasAgile.md)
+- [Herramientas Agile](./Herramientas%20Agile/HerramientasAgile.md)
 
-- [Anexo](Anexos.md)
+- [Anexo](./Anexos/Anexos.md)
