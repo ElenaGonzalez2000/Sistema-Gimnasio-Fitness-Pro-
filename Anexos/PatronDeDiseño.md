@@ -1,4 +1,4 @@
-## Anexo - Aplicación de Patrón de Diseño 
+## Anexo - Aplicación de Patrón de Diseño State
 El patron state es un patron de diseño de comportamiento que permite a un objeto alterar su comportamiento cuando su estado interno cambia.
 Sin un mecanismo para manejar estos estado el codigo para gestionar las reservas podria volverse complejo y redundante.
 
