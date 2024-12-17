@@ -1,81 +1,31 @@
 ### Abstracción
 
-El Polimorfismo permite tratar a las clases hijas como si fueran iguales que la clase base. Desde el punto de vista del porgrama las clases hijas se "comportan como" la clase base, pero ejecutan su propia versión de los métodos.
+La abstracción simplifica la realidad modelando clases a partir de objetos del mundo real, considerando solo las características esenciales. Se centra en "qué hace" un objeto más que en "cómo lo hace".
 
-![Aplicación de Abtracción en la clase "Socio"]()
-- [Diagrama de la clase]()
+![Aplicación de Abtracción en la clase "Socio"](../img/abstraccion.jpg)
+- [Diagrama de la clase](https://drive.google.com/file/d/1l_yZYCP1imGQmKD5uv7kyAzmP1AS-NeK/view?usp=sharing)
 
-Aplicado al sistema: En el sistema del gimnasio, todos los socios tienen caracteristicas comunes(por ejemplo, nombre, email, etc.) y un metodo general como (AccesoGimnasio). La clase abstracta Socio define los atributos comunes y metodos que deben si o si implementarse. No se crean directamente un "Socio", sino que se crean subclases especificas como "SocioRegular" o "SocioPremium".
+Aplicado al sistema:  La clase Socio abstrae a un socio del gimnasio con propiedades como nombre, telefono, tipoMembresía, etc. Se omiten detalles como su historial de entrenamiento o preferencias.
 
 ```java
-// Clase abstracta Socio
-public abstract class Socio {
-    private String nombre;
-    private String dni;
+class Socio {
+  String id;
+  String nombre;
+  String telefono;
+  String tipoMembresia;
+  Boolean estadoMembresia;
 
-    // Constructor
-    public Socio(String nombre, String dni) {
-        this.nombre = nombre;
-        this.dni = dni;
-    }
 
-    // Métodos para obtener los atributos
-    public String getNombre() {
-        return nombre;
-    }
+  public void registrarSocio() {
+    // Lógica para reservar una clase
+  }
 
-    public String getDni() {
-        return dni;
-    }
+  public void actualizarInformacion() {
+    // Lógica para cancelar una reserva
+  }
 
-    // Método abstracto: obliga a las subclases a implementarlo
-    public abstract void accesoAlGimnasio();
+  public void consultarEstadoMembresia(){
+    // Lógica para consultar el estado de la membresia
+  }
 }
-
-public class SocioRegular extends Socio {
-    // Constructor
-    public SocioRegular(String nombre, String dni) {
-        super(nombre, dni); // Llama al constructor de la clase base
-    }
-
-    // Implementación del método abstracto
-    @Override
-    public void accesoAlGimnasio() {
-        System.out.println(getNombre() + " tiene acceso al gimnasio en horarios regulares.");
-    }
-}
-
-public class SocioPremium extends Socio {
-    // Constructor
-    public SocioPremium(String nombre, String dni) {
-        super(nombre, dni);
-    }
-
-    // Implementación del método abstracto
-    @Override
-    public void accesoAlGimnasio() {
-        System.out.println(getNombre() + " tiene acceso al gimnasio en cualquier horario.");
-    }
-}
-
-Ejemplo:
-
-public class Gimnasio {
-    public static void main(String[] args) {
-        // Crear un socio regular
-        Socio socioRegular = new SocioRegular("Ana", "12345678");
-
-        // Crear un socio premium
-        Socio socioPremium = new SocioPremium("Carlos", "87654321");
-
-        // Llamar al método accesoAlGimnasio() en ambos
-        socioRegular.accesoAlGimnasio(); // Ana tiene acceso al gimnasio en horarios regulares.
-        socioPremium.accesoAlGimnasio(); // Carlos tiene acceso al gimnasio en cualquier horario.
-    }
-}
-
-Salida:
-Ana tiene acceso al gimnasio en horarios regulares.
-Carlos tiene acceso al gimnasio en cualquier horario.
-
 ```
