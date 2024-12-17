@@ -17,11 +17,11 @@ class Socio {
 
 
   public void registrarSocio() {
-    // Lógica para reservar una clase
+    // Lógica para registrar un socio
   }
 
   public void actualizarInformacion() {
-    // Lógica para cancelar una reserva
+    // Lógica para actualizar informacion
   }
 
   public void consultarEstadoMembresia(){
